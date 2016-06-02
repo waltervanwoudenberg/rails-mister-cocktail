@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+ruby '2.3.0'
+gem 'rails_12factor', group: :production
+gem 'puma',           group: :production
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
