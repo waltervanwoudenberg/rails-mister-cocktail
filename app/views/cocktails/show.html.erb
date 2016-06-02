@@ -2,6 +2,7 @@
     <% @cocktail.doses.each do |dose| %>
       <%= dose.description %>
       <%= dose.ingredient.name %>
+      <%= link_to 'Remove', cocktail_dose_path(@cocktail, dose), method: :delete %>
     <%end%>
 </p>
 <%= render 'doses/form' %>
