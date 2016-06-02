@@ -4,6 +4,11 @@ ruby '2.3.0'
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
 
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'simple_form'
+gem 'autoprefixer-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
