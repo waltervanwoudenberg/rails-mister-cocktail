@@ -4,6 +4,7 @@
       <%= dose.ingredient.name %>
       <%= link_to 'Remove', cocktail_dose_path(@cocktail, dose), method: :delete %>
     <%end%>
+    <%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
 </p>
 <%= render 'doses/form' %>
 <%= link_to 'back to index', cocktails_path %>
